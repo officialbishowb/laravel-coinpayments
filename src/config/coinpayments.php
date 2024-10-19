@@ -5,7 +5,7 @@ use Kevupton\LaravelCoinpayments\Models\Log;
 return array(
 
     // prefix to each of the tables in the database
-    // set it in the env file as COINPAYMENTS_DB_PREFIX - not here as it doesn't work - not sure why
+    // set the prefix in the env file as COINPAYMENTS_DB_PREFIX - not here as it doesn't work - not sure why
     'database_prefix' => env('COINPAYMENTS_DB_PREFIX', ''),
 
     'merchant_id' => env('COINPAYMENTS_MERCHANT_ID'),
